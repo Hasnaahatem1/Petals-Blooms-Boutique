@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+    <title>Petals & Blooms | Our Gallery</title>
+    <style>
+        body {
+            background-image: url('8.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar {
+            background: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            padding: 25px;
+            border-bottom: 5px solid #ff69b4;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: #d02090;
+            font-weight: bold;
+            padding: 0 20px;
+            font-size: 16px;
+        }
+
+        #navbar a:hover {
+            color: #ff69b4;
+        }
+
+        .main-content {
+            background: rgba(255, 255, 255, 0.95);
+            width: 80%;
+            margin: 50px auto 120px auto;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ff69b4;
+            color: white !important;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 15px;
+        }
+
+        .nav-btn:hover {
+            background: #d02090;
+        }
+
+        #footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .gallery-table img {
+            border: 8px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <h1 style="color: #ff1493; margin: 0; font-size: 32px;">Petals & Blooms Boutique</h1>
+        <div style="margin-top: 15px;">
+            <a href="index.html">Home</a> |
+            <a href="products.html">Our Flowers</a> |
+            <a href="gallery.html" style="color:#ff69b4;">Gallery</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h2>Our Design Gallery</h2>
+        <p style="font-size: 18px; color: #666;">A glimpse into our artistic floral creations and custom bouquets.</p>
+
+        <table border="0" align="center" class="gallery-table" style="background:transparent; margin-top: 30px;">
+            <tr>
+                <td><img src="1.jpg" width="250" height="250" alt="Bouquet 1"></td>
+                <td><img src="2.jpg" width="250" height="250" alt="Bouquet 2"></td>
+                <td><img src="3.jpg" width="250" height="250" alt="Bouquet 3"></td>
+            </tr>
+            <tr height="20"> </tr>
+            <tr>
+                <td><img src="4.jpg" width="250" height="250" alt="Bouquet 4"></td>
+                <td><img src="5.jpg" width="250" height="250" alt="Bouquet 5"></td>
+                <td><img src="6.jpg" width="250" height="250" alt="Bouquet 6"></td>
+            </tr>
+        </table>
+
+        <div style="margin-top: 40px;">
+            <a href="products.html" class="nav-btn">&laquo; Back to Products</a>
+            <a href="about.html" class="nav-btn">Learn About Us &raquo;</a>
+        </div>
+    </div>
+
+    <div id="footer">
+        Copyright &copy; 2026 Petals & Blooms Boutique | Crafted with Love for Beauty
+    </div>
+
+</body>
+
+</html>
